@@ -1,0 +1,17 @@
+# system
+alias c='clear'
+alias reload='source ~/.zshrc'
+
+# vim
+alias v='vim'
+alias vt='vim ~/tmp/.'
+
+# navigation
+alias l='ls -Glah'
+alias ..='cd ..'
+
+# python
+alias python='python3'
+
+# git
+alias g='git'
