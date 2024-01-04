@@ -108,4 +108,6 @@ hi cssClassName ctermfg=81 ctermbg=NONE cterm=NONE guifg=#6be5fd guibg=NONE gui=
 hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ac80ff guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=81 ctermbg=NONE cterm=NONE guifg=#6be5fd guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi mailHeaderKey ctermfg=11 ctermbg=NONE cterm=NONE guifg=yellow guibg=NONE gui=NONE
+hi mailHeader ctermfg=11 ctermbg=NONE cterm=NONE guifg=yellow guibg=NONE gui=NONE
 hi EndOfBuffer ctermbg=None

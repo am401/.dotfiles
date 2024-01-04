@@ -9,9 +9,18 @@ alias vt='vim ~/tmp/.'
 # navigation
 alias l='ls -Glah'
 alias ..='cd ..'
+alias ...='cd ../..'
 
 # python
 alias python='python3'
 
 # git
 alias g='git'
+alias gs='git status'
+alias gc='git commit -m'
+
+# sync nerdtree to dotfiles
+alias sn='rsycn -avPuh --exclude .git/ --exclude .gitignore ~/bin/nerdtree ~/.dotfiles/vim/.vim/bundle/'
+
+# bookmarks
+alias lnks='~/bin/lnks/lnks.sh'
