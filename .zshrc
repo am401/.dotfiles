@@ -15,4 +15,4 @@ n macfeh() {
 #export PATH="$HOME/Library/Python/3.8/bin:$HOME/.gem/ruby/2.6.0/bin:$PATH"
 # aliases
 source ~/.aliases
-export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/Library/Python/3.9/bin:/usr/local/sbin:$PATH"

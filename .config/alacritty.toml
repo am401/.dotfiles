@@ -1,0 +1,48 @@
+live_config_reload = true
+
+#colorscheme
+import = [
+"~/.config/alacritty/themes/gruvbox_dark.toml"
+]
+
+[shell]
+program = "/bin/zsh"
+args = [ "-l", "-c", "tmux attach || tmux"]
+
+[mouse]
+hide_when_typing = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+
+#normal.family = "iA Writer Quattro V"
+#bold.family = "iA Writer Quattro V"
+#italic.family = "iA Writer Quattro V"
+#bold_italic.family = "iA Writer Quattro V"
+normal = { family = "Fantasque Sans Mono", style = "Regular" }
+glyph_offset = { x = 0, y = 0 }
+offset = { x = 2, y = 0 }
+
+size = 12.5
+
+[scrolling]
+history = 65535
+
+[keyboard]
+bindings = [
+ { key = "Right", mods = "Alt", chars = "\u001BF" }, # Skip word right
+ { key = "Left",  mods = "Alt", chars = "\u001BB" }, # Skip word left
+ { key = "Left", mods = "Command", chars = "\u001bOH", mode = "AppCursor" }, # Home
+ { key = "Right", mods = "Command", chars = "\u001bOF", mode = "AppCursor" }, # End
+ { key = "Back", mods = "Command", chars = "\u0015" } # Delete line
+]
+
+[window]
+decorations = "buttonless"
+dynamic_padding = true
+padding = { x = 15, y = 15 }
+opacity = 0.90
+blur = true
+resize_increments = true

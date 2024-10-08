@@ -24,3 +24,6 @@ alias sn='rsycn -avPuh --exclude .git/ --exclude .gitignore ~/bin/nerdtree ~/.do
 
 # bookmarks
 alias lnks='~/bin/lnks/lnks.sh'
+
+# create splunk markdown table
+alias tbl="sed -e '/\t/{1 s/\t/||/g;s/\t/|/g;};/.*/{1 s/.*/|&|/;s/.*/|&|/;}'"

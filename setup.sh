@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 # Check if stow is installed
-if ! command -v stow2 &> /dev/null
+if ! command -v stow &> /dev/null
 then
     echo -n 'stow could not be found. Would you like to install it? [y/n]: '
     read selection
@@ -21,7 +21,4 @@ then
     esac
 fi
 
-stow aliases
-stow tmux
-stow vim
-stow zsh
+stow .
