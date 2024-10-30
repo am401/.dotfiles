@@ -25,7 +25,8 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " set lighline theme inside lightline config
 "let g:lightline = { 'colorscheme': 'tender' }
 syntax enable
-colorscheme cryptohack
+set background=dark
+colorscheme gruvbox
 set laststatus=2
 let macvim_skip_colorscheme=1
 if !has('gui_running')
